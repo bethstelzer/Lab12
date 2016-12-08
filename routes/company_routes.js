@@ -68,6 +68,8 @@ router.get('/insert', function(req, res){
     }
 });
 
+
+
 // Delete a company for the given company
 router.get('/delete', function(req, res){
     if(req.query.company_id == null) {
